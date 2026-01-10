@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to top,
+    #15803d,   
+    #34d399    
+  );
+} */
+ body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+}
+
+.animate-pulseScale {
+  animation: pulseScale 1.5s ease-in-out infinite;
+}
+
+/* Stagger delays */
+.delay-0 { animation-delay: 0s; }
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+.delay-4 { animation-delay: 1.2s; }
+.delay-5 { animation-delay: 1.5s; }
+
+@keyframes pulseScale {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(0.97); }
+  50% { transform: scale(0.95); }
+  75% { transform: scale(0.97); }
+}
+
+
+
+
+
+
