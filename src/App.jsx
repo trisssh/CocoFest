@@ -133,18 +133,39 @@ function App() {
           </div>
 
           {/* FB LINK */}
-          <div className="bg-white text-green-600 = rounded-xl flex items-center justify-start py-2 px-8 w-full filter drop-shadow-[2px_2px_4px_#009780] my-1">
-            {/* Location Icon */}
-            <FaFacebook className="text-green-500 text-5xl mr-4" />
-            <div className="text-left">
-              <h5 className="text-base md:text-xl font-semibold text-gray-800">
-                SPC City Treasurer's Office FB Account
-              </h5>
-              <h5 className="text-base md:text-lg text-gray-600"></h5>
-              <a className="text-sm md:text-base hover:underline" href="#">
-                SPC City Treasurer's Office
-              </a>
-            </div>
+          <div className="flex flex-col md:flex-row gap-1 md:gap-4">
+            <a
+              className="bg-white text-green-600 = rounded-xl flex items-center justify-start py-2 px-8 w-full filter drop-shadow-[2px_2px_4px_#009780] my-1"
+              href="https://www.facebook.com/TOURISMSANPABLOOFFICIALPAGE"
+            >
+              {/* Location Icon */}
+              <FaFacebook className="text-green-500 text-5xl mr-4" />
+              <div className="text-left">
+                <h5 className="text-base md:text-xl font-semibold text-gray-800">
+                  San Pablo City Tourism's Office FB Account
+                </h5>
+                <h5 className="text-base md:text-lg text-gray-600"></h5>
+                <h5 className="text-sm md:text-base hover:underline">
+                  Office of the City Tourism Officer - OCTO San Pablo
+                </h5>
+              </div>
+            </a>
+            <a
+              className="bg-white text-green-600 = rounded-xl flex items-center justify-start py-2 px-8 w-full filter drop-shadow-[2px_2px_4px_#009780] my-1"
+              href="#"
+            >
+              {/* Location Icon */}
+              <FaFacebook className="text-green-500 text-5xl mr-4" />
+              <div className="text-left">
+                <h5 className="text-base md:text-xl font-semibold text-gray-800">
+                  San Pablo City Coco Festival FB Account
+                </h5>
+                <h5 className="text-base md:text-lg text-gray-600"></h5>
+                <h5 className="text-sm md:text-base hover:underline">
+                  San Pablo City Coco Festival
+                </h5>
+              </div>
+            </a>
           </div>
         </div>
       </div>
