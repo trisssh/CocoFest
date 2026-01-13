@@ -152,7 +152,7 @@ function App() {
             </a>
             <a
               className="bg-white text-green-600 = rounded-xl flex items-center justify-start py-2 px-8 w-full filter drop-shadow-[2px_2px_4px_#009780] my-1"
-              href="#"
+              href="https://www.facebook.com/SanPabloCocoFestivalOfPerformingArts"
             >
               {/* Location Icon */}
               <FaFacebook className="text-green-500 text-5xl mr-4" />
@@ -162,7 +162,7 @@ function App() {
                 </h5>
                 <h5 className="text-base md:text-lg text-gray-600"></h5>
                 <h5 className="text-sm md:text-base hover:underline">
-                  San Pablo City Coco Festival
+                  SPC Coco Festival of Performing Arts - Coco Festival
                 </h5>
               </div>
             </a>
